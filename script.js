@@ -13,6 +13,7 @@ const openModal = function () {
 const closeModal = function () {
   modal.classList.add('hidden');
   overlay.classList.add('hidden');
+  return;
 };
 
 for (let i = 0; i < btnsOpenModal.length; i++)
